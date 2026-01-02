@@ -1,0 +1,23 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional global styles */
+body {
+  @apply bg-neutral-950 text-white;
+}
+
+/* Custom Tailwind font class */
+.font-fancy {
+  font-family: "Cormorant Unicase", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
